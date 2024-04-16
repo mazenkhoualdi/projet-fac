@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--nav-->
+    <nav id="header">
+      <a href="#"
+        ><img
+          class="logo"
+          src="images/logo.png"
+          alt=""
+          width="180px"
+          height="85px"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container" id="mn">
+      <div class="singup">
+        <form action="#">
+          <h1 style="color: rgb(23, 181, 181); padding-bottom: 0px">
+            create account
+          </h1>
+          <div class="social-media">
+            <a href="#"
+              ><i class="fa-brands fa-facebook" style="color: blue"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-brands fa-instagram"
+                style="color: rgb(242, 14, 174)"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter" style="color: aqua"></i
+            ></a>
+          </div>
+          <p>or use your email for registration</p>
+
+          <input type="text " name="txt" placeholder="username" id="name" />
+          <input
+            type="text"
+            name="email"
+            placeholder="exemple@gmail.com"
+            id="email"
+          />
+          <input
+            type="password"
+            name="pass"
+            placeholder="passsword"
+            id="pass"
+          />
+          <button type="button">sing up</button>
+        </form>
+      </div>
+      <div class="singin">
+        <form action="#">
+          <h1 style="color: rgb(42, 201, 201)">sing in</h1>
+          <div class="social-media">
+            <a href="#"
+              ><i class="fa-brands fa-facebook" style="color: blue"></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa-brands fa-instagram"
+                style="color: rgb(255, 21, 212)"
+              ></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter" style="color: aqua"></i
+            ></a>
+          </div>
+          <p>or use your account</p>
+          <input type="email" name="email" placeholder="exemple@gmail.com" />
+          <input type="password" name="pass" placeholder="passsword" />
+          <a href="#">forget your password?</a>
+          <button id="sin">sing in</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-left">
+            <h1>welcome back!</h1>
+            <p>please login with your personal info</p>
+            <button id="sing-in">sign in</button>
+          </div>
+          <div class="overlay-right">
+            <h1>Hello, friend</h1>
+            <p>enter your personnal data</p>
+            <button id="sing-up">sign up</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="info">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Adress:tunis-benarous centrale</a></li>
+          <li><a href="#">Fax:+2167984748745</a></li>
+          <li><a href="#">Horaires:9am-19pm(monday-sunday)</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h3>Account</h3>
+        <li><a href="login.html">Sign in</a></li>
+        <li><a href="contact.html">Help</a></li>
+      </div>
+      <div class="info">
+        <h3>Follow us</h3>
+        <div class="media">
+          <a href="#" id="fb"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" id="ins"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" id="tw"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" id="twi"><i class="fa-brands fa-twitch"></i></a>
+          <a href="" id="yt"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <h3>paiment methodes</h3>
+        <div class="paiment">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-solid fa-credit-card"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="login.js"></script>
+  </body>
+</html>

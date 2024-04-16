@@ -1,0 +1,242 @@
+* {
+  margin: 0px;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a1a;
+  position: relative;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #3bcac3;
+  transition: 0.3s ease;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 65%;
+  height: 3px;
+  background: #3bcac3;
+  bottom: -4px;
+  left: 0px;
+  position: absolute;
+}
+footer {
+  margin-top: 110px;
+  background-color: #e3e6f8;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e3e6f8;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.info {
+  padding-top: 80px;
+}
+.info h3 {
+  color: #555652;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: large;
+}
+.info h3:hover {
+  transform: scale(0.75);
+  color: black;
+}
+.info li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.info li a {
+  text-decoration: none;
+  color: #62635f;
+  font-style: italic;
+}
+.media a {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+}
+.paiment i {
+  padding-left: 20px;
+}
+.paiment i:hover {
+  color: #ff2273;
+}
+#ins:hover {
+  color: rgb(255, 0, 157);
+}
+#tw:hover {
+  color: rgb(12, 210, 255);
+}
+#fb:hover {
+  color: blue;
+}
+#twi:hover {
+  color: rgb(2, 10, 81);
+}
+#yt:hover {
+  color: red;
+}
+.contact-back {
+  background-image: url("images/aboutback.png");
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 1280px;
+  margin: 40px 40px;
+}
+.mini-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  font-size: x-large;
+  font-style: oblique;
+}
+.mini-titles h1 {
+  color: #0fa79c;
+}
+.mini-titles h4 {
+  color: #05192c;
+  font-weight: 800;
+}
+.abt {
+  display: flex;
+  align-items: center;
+  margin: 50px 100px;
+}
+.abt img {
+  width: 500px;
+  margin-right: 40px;
+  border-radius: 40px;
+  border: 2px solid #41d3c8;
+  box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.36);
+}
+.description {
+  width: 600px;
+}
+.description h1 {
+  color: #41d3c8;
+  font-weight: bold;
+  font-style: italic;
+}
+.description p {
+  font-weight: bold;
+  font-size: large;
+}
+#marq {
+  color: #a69d7d;
+  background-color: #05192c;
+  border-radius: 10px;
+  color: white;
+}
+span {
+  color: #699ac7;
+}
+#title{
+  text-align: center;
+  color: #3eb3aa;
+  font-style: oblique;
+  font-weight: bold;
+}
+#mission-title {
+  text-align: center;
+  color: #03294d;
+  font-style: italic;
+  font-weight: 700;
+  font-size: xx-large;
+  margin: 40px;
+}
+.mission-container {
+  display: flex;
+  justify-content: space-around;
+}
+.mission-container p {
+  font-size: large;
+  font-style: oblique;
+  font-weight: 700;
+  width: 600px;
+}
+.mission-container img {
+  width: 30%;
+  height: 190px;
+  border-radius: 50% 40% 90% 0;
+  border: 2px solid #62635f;
+  margin: 0 20px;
+}
+.qotes {
+  margin-top: 80px;
+  width: 300px;
+  margin-left: 40%;
+}
+.qotes p {
+  font-size: x-large;
+  font-style: oblique;
+  color: #04214e;
+}
+.qotes span {
+  font-size: xx-large;
+}
+.app {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app h1 {
+  color: #03294d;
+  filter: drop-shadow(30px 10px 4px #4444dd);
+}
+.app-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#vr-img {
+  margin: 40px 20px;
+  border: 3px solid #03294d;
+  border-radius: 40px;
+}
